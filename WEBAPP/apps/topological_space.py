@@ -16,13 +16,13 @@ def app():
     # st.write("### Select a factor to color according to the factor")
     select_color = "Subtypes" # st.selectbox('', [colorable_columns_maps[i] for i in colorable_columns], index=0)
     cols = st.columns(2)
-    if cols[0].checkbox("Show Replication Cohort (PDBP)"):
+    if cols[0].checkbox("Include replication cohort (PDBP)"):
         pass
     else:
         original_data = original_data[(original_data['dataset'] == 'ppmi')]
     # st.write("#### Select the duration from baseline to visualize progression")
     year_list = ['Baseline', 'Year1', 'Year2', 'Year3', 'Year4', 'Year5']
-    if cols[1].checkbox("Show odd years"):
+    if cols[1].checkbox("View progression at 2 year interval"):
         end_select_year = st.select_slider('Select the duration from baseline to visualize progression', ['Year4', 'Year5'])
         itera = 2
     else:
