@@ -5,19 +5,34 @@ def app():
     # st.write("Faraz Faghri, Fabian Brunn, Anant Dadu, PARALS consortium, ERRALS consortium, Elisabetta Zucchi, Ilaria Martinelli, Letizia Mazzini, Rosario Vasta, Antonio Canosa, Cristina Moglia, Andrea Calvo, Michael A Nalls, Roy H Campbell, Jessica Mandrioli, Bryan J Traynor, Adriano Chiò")
     st.write("## Summary")
     st.write("### Background")
-    # st.write("Amyotrophic lateral sclerosis (ALS) is known to represent a collection of overlapping syndromes. Various classification systems based on empirical observations have been proposed, but it is unclear to what extent they reflect ALS population substructures. We aimed to use machine-learning techniques to identify the number and nature of ALS subtypes to obtain a better understanding of this heterogeneity, enhance our understanding of the disease, and improve clinical care.")
-    st.write("### Methods")
-    # st.write("In this retrospective study, we applied unsupervised Uniform Manifold Approximation and Projection [UMAP]) modelling, semi-supervised (neural network UMAP) modelling, and supervised (ensemble learning based on LightGBM) modelling to a population-based discovery cohort of patients who were diagnosed with ALS while living in the Piedmont and Valle d'Aosta regions of Italy, for whom detailed clinical data, such as age at symptom onset, were available. We excluded patients with missing Revised ALS Functional Rating Scale (ALSFRS-R) feature values from the unsupervised and semi-supervised steps. We replicated our findings in an independent population-based cohort of patients who were diagnosed with ALS while living in the Emilia Romagna region of Italy.")
-    st.write("### Findings")
-    # st.write("Between Jan 1, 1995, and Dec 31, 2015, 2858 patients were entered in the discovery cohort. After excluding 497 (17%) patients with missing ALSFRS-R feature values, data for 42 clinical features across 2361 (83%) patients were available for the unsupervised and semi-supervised analysis. We found that semi-supervised machine learning produced the optimum clustering of the patients with ALS. These clusters roughly corresponded to the six clinical subtypes defined by the Chiò classification system (ie, bulbar, respiratory, flail arm, classical, pyramidal, and flail leg ALS). Between Jan 1, 2009, and March 1, 2018, 1097 patients were entered in the replication cohort. After excluding 108 (10%) patients with missing ALSFRS-R feature values, data for 42 clinical features across 989 patients were available for the unsupervised and semi-supervised analysis. All 1097 patients were included in the supervised analysis. The same clusters were identified in the replication cohort. By contrast, other ALS classification schemes, such as the El Escorial categories, Milano-Torino clinical staging, and King's clinical stages, did not adequately label the clusters. Supervised learning identified 11 clinical parameters that predicted ALS clinical subtypes with high accuracy (area under the curve 0·982 [95% CI 0·980–0·983]).")
-    st.write("### Interpretation")
-    # st.write("Our data-driven study provides insight into the ALS population substructure and confirms that the Chiò classification system successfully identifies ALS subtypes. Additional validation is required to determine the accuracy and clinical use of these algorithms in assigning clinical subtypes. Nevertheless, our algorithms offer a broad insight into the clinical heterogeneity of ALS and help to determine the actual subtypes of disease that exist within this fatal neurodegenerative syndrome. The systematic identification of ALS subtypes will improve clinical care and clinical trial design.")
-    st.write("### Funding")
+    st.write("The clinical manifestations of Parkinson’s disease (PD) are characterized by heterogeneity in age at onset, disease duration, rate of progression, and the constellation of motor versus non-motor features. There is an unmet need for the characterization of distinct disease subtypes as well as improved, individualized predictions of the disease course. The emergence of machine learning to detect hidden patterns in complex, multi-dimensional datasets provides unparalleled opportunities to address this critical need.")
+    st.write("### Methods and Findings")
+    st.write("""We used unsupervised and supervised machine learning methods on
+comprehensive, longitudinal clinical data from the Parkinson’s Disease Progression Marker
+Initiative (PPMI) (n = 294 cases) to identify patient subtypes and to predict disease progression.
+The resulting models were validated in an independent, clinically well-characterized cohort
+from the Parkinson’s Disease Biomarker Program (PDBP) (n = 263 cases). Our analysis
+distinguished three distinct disease subtypes with highly predictable progression rates,
+corresponding to slow, moderate, and fast disease progression. We achieved highly accurate
+projections of disease progression five years after initial diagnosis with an average area under
+the curve (AUC) of 0.92 (95% CI: 0.95 ± 0.01 for the slower progressing group (PDvec1), 0.87 ±
+0.03 for moderate progressors, and 0.95 ± 0.02 for the fast progressing group (PDvec3). We
+identified serum neurofilament light (Nfl) as a significant indicator of fast disease progression
+among other key biomarkers of interest. We replicated these findings in an independent
+validation cohort, released the analytical code, and developed models in an open science
+manner.""")
+    st.write("### Conclusions")
+    st.write("""Our data-driven study provides insights to deconstruct PD heterogeneity. This
+approach could have immediate implications for clinical trials by improving the detection of
+significant clinical outcomes that might have been masked by cohort heterogeneity. We
+anticipate that machine learning models will improve patient counseling, clinical trial design,
+allocation of healthcare resources, and ultimately individualized patient care.""")
+    # st.write("### Funding")
     # st.write("US National Institute on Aging, US National Institutes of Health, Italian Ministry of Health, European Commission, University of Torino Rita Levi Montalcini Department of Neurosciences, Emilia Romagna Regional Health Authority, and Italian Ministry of Education, University, and Research.")
-    st.write("### Translations")
+    # st.write("### Translations")
     # st.write("For the Italian and German translations of the abstract see Supplementary Materials section.")
     # st.write("For the Italian and German translations of the abstract see Supplementary Materials section.")
-    st.write("## Citation")
+    # st.write("## Citation")
     st.write(""" "Identification and prediction of Parkinson disease subtypes and progression using machine learning in two cohorts.". \[[web](https://anant-dadu-pdprogressionsubtypes-streamlit-app-aaah95.streamlitapp.com/)\]\[[supplementary materials](https://anant-dadu-pdprogressionsubtypes-streamlit-app-aaah95.streamlitapp.com/)\]\[[github](https://github.com/anant-dadu/PD_progression_subtypes)\]\[[website](https://anant-dadu-pdprogressionsubtypes-streamlit-app-aaah95.streamlitapp.com/)\]""")
     # st.write("## Summary")
     # st.write("### Background")
