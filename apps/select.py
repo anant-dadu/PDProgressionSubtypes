@@ -32,7 +32,7 @@ allocation of healthcare resources, and ultimately individualized patient care."
     # st.write("### Translations")
     # st.write("For the Italian and German translations of the abstract see Supplementary Materials section.")
     # st.write("For the Italian and German translations of the abstract see Supplementary Materials section.")
-    # st.write("## Citation")
+    st.write("## Citation")
     st.write(""" "Identification and prediction of Parkinson disease subtypes and progression using machine learning in two cohorts.". \[[web](https://anant-dadu-pdprogressionsubtypes-streamlit-app-aaah95.streamlitapp.com/)\]\[[supplementary materials](https://anant-dadu-pdprogressionsubtypes-streamlit-app-aaah95.streamlitapp.com/)\]\[[github](https://github.com/anant-dadu/PD_progression_subtypes)\]\[[website](https://anant-dadu-pdprogressionsubtypes-streamlit-app-aaah95.streamlitapp.com/)\]""")
     # st.write("## Summary")
     # st.write("### Background")
