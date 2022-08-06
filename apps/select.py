@@ -2,7 +2,7 @@ import streamlit as st
 
 def app():
     st.title("Identification and prediction of Parkinson disease subtypes and progression using machine learning in two cohorts")
-    st.write("Anant Dadu, Vipul K Satone, Rachneet Kaur, Sayed Hadi Hashemi, Hampton Leonard, Hirotaka Iwaki, Mary B Makarious, Kimberley J Billingsley, Sara Bandres-Ciga, Lana Sargent, Alastair Noyce, Ali Daneshmand, Cornelis Blauwendraat, Ken Marek, Sonja W. Scholz, Andrew Singleton, Mike A Nalls, Roy Campbell, Faraz Faghri bioRxiv 2022.08.04.502846; doi: https://doi.org/10.1101/2022.08.04.502846")
+    st.write("Anant Dadu, Vipul K Satone, Rachneet Kaur, Sayed Hadi Hashemi, Hampton Leonard, Hirotaka Iwaki, Mary B Makarious, Kimberley J Billingsley, Sara Bandres-Ciga, Lana Sargent, Alastair Noyce, Ali Daneshmand, Cornelis Blauwendraat, Ken Marek, Sonja W. Scholz, Andrew Singleton, Mike A Nalls, Roy Campbell, Faraz Faghri \n bioRxiv 2022.08.04.502846; doi: https://doi.org/10.1101/2022.08.04.502846")
     st.write("## Summary")
     st.write("### Background")
     st.write("The clinical manifestations of Parkinson’s disease (PD) are characterized by heterogeneity in age at onset, disease duration, rate of progression, and the constellation of motor versus non-motor features. There is an unmet need for the characterization of distinct disease subtypes as well as improved, individualized predictions of the disease course. The emergence of machine learning to detect hidden patterns in complex, multi-dimensional datasets provides unparalleled opportunities to address this critical need.")
