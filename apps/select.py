@@ -2,7 +2,7 @@ import streamlit as st
 
 def app():
     st.title("Identification and prediction of Parkinson disease subtypes and progression using machine learning in two cohorts")
-    # st.write("Faraz Faghri, Fabian Brunn, Anant Dadu, PARALS consortium, ERRALS consortium, Elisabetta Zucchi, Ilaria Martinelli, Letizia Mazzini, Rosario Vasta, Antonio Canosa, Cristina Moglia, Andrea Calvo, Michael A Nalls, Roy H Campbell, Jessica Mandrioli, Bryan J Traynor, Adriano Chiò")
+    st.write("Anant Dadu, Vipul K Satone, Rachneet Kaur, Sayed Hadi Hashemi, Hampton Leonard, Hirotaka Iwaki, Mary B Makarious, Kimberley J Billingsley, Sara Bandres-Ciga, Lana Sargent, Alastair Noyce, Ali Daneshmand, Cornelis Blauwendraat, Ken Marek, Sonja W. Scholz, Andrew Singleton, Mike A Nalls, Roy Campbell, Faraz Faghri bioRxiv 2022.08.04.502846; doi: https://doi.org/10.1101/2022.08.04.502846")
     st.write("## Summary")
     st.write("### Background")
     st.write("The clinical manifestations of Parkinson’s disease (PD) are characterized by heterogeneity in age at onset, disease duration, rate of progression, and the constellation of motor versus non-motor features. There is an unmet need for the characterization of distinct disease subtypes as well as improved, individualized predictions of the disease course. The emergence of machine learning to detect hidden patterns in complex, multi-dimensional datasets provides unparalleled opportunities to address this critical need.")
@@ -33,7 +33,7 @@ allocation of healthcare resources, and ultimately individualized patient care."
     # st.write("For the Italian and German translations of the abstract see Supplementary Materials section.")
     # st.write("For the Italian and German translations of the abstract see Supplementary Materials section.")
     st.write("## Citation")
-    st.write(""" "Identification and prediction of Parkinson disease subtypes and progression using machine learning in two cohorts.". \[[web](https://anant-dadu-pdprogressionsubtypes-streamlit-app-aaah95.streamlitapp.com/)\]\[[supplementary materials](https://anant-dadu-pdprogressionsubtypes-streamlit-app-aaah95.streamlitapp.com/)\]\[[github](https://github.com/anant-dadu/PD_progression_subtypes)\]\[[website](https://anant-dadu-pdprogressionsubtypes-streamlit-app-aaah95.streamlitapp.com/)\]""")
+    st.write(""" "Identification and prediction of Parkinson disease subtypes and progression using machine learning in two cohorts.". \[[article](https://www.biorxiv.org/content/10.1101/2022.08.04.502846v1)\]\[[supplementary materials](https://www.biorxiv.org/content/10.1101/2022.08.04.502846v1.supplementary-material)\]\[[github](https://github.com/anant-dadu/PD_progression_subtypes)\]\[[website](https://anant-dadu-pdprogressionsubtypes-streamlit-app-aaah95.streamlitapp.com/)\]""")
     # st.write("## Summary")
     # st.write("### Background")
     # st.write("The disease entity known as amyotrophic lateral sclerosis (ALS) is now known to represent a collection of overlapping syndromes. A better understanding of this heterogeneity and the ability to distinguish ALS subtypes would improve the clinical care of patients and enhance our understanding of the disease. Subtype profiles could be incorporated into the clinical trial design to improve our ability to detect a therapeutic effect. A variety of classification systems have been proposed over the years based on empirical observations, but it is unclear to what extent they genuinely reflect ALS population substructure.")
