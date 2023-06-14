@@ -2,7 +2,6 @@ plotly==4.14.3
 protobuf==3.20.*
 streamlit==1.1.0
 omegaconf==2.0.6
-numpy==1.20.1
 altair==4.1.0
 scikit_learn==0.24.1
 shap==0.40.0
